@@ -1,0 +1,22 @@
+.map-box{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.map, .track, .spin-box{
+    position: absolute;
+    margin: 98vh auto 0;
+
+}
+
+.map{
+    z-index: 0;
+}
+.track{
+    z-index: 999;
+}
+.spin-box{
+    z-index: 50;
+}
